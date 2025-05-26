@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { articleComponent } from './components/article/article.component';
-import { SummaryComponent } from './components/summary/summary.component';
+import { HeaderComponent } from './components/header/header.component';
+import { DepartmentComponent } from "./components/department/department.component";
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,articleComponent,SummaryComponent],
+  imports: [RouterOutlet, HeaderComponent, DepartmentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'article';
+  title = 'employee_management';
 }
