@@ -1,0 +1,46 @@
+.article-create-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.article-create-container h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.article-create-container form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.article-create-container form input[type="text"],
+.article-create-container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.article-create-container form button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.article-create-container form button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,7 @@
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error" style="color:red">{{ error }}</div>
+
+<div *ngIf="summary && !loading">
+  <h3>Summary for Article ID: {{ summary.articleId }}</h3>
+  <pre>{{ summary.summaryTree | json }}</pre>
+</div>

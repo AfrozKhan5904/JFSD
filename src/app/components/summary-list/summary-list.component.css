@@ -1,0 +1,32 @@
+.summary-list-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.summary-list-container h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.summary-list-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.summary-list-container li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.summary-list-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.summary-list-container a:hover {
+  text-decoration: underline;
+}
